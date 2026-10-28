@@ -1,0 +1,51 @@
+h1 {
+  color: #d81db9;
+  font-size: 25px;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #1dd849;
+  font-size: 18px;
+}
+
+button {
+  background-color: #2563eb;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.judul {
+  color: #2563eb;
+}
+
+#btn-simpan {
+  background-color: green;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.navbar nav {
+  display: flex;
+  gap: 16px;
+}

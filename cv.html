@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV Ela Santia</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .foto-profil {
+        width: 100px;
+        height: 120px;
+        object-fit: cover;
+        border: 2px solid #c2185b;
+        border-radius: 8px;
+        display: block;
+        margin: 0 auto 15px;
+      }
+
+      @media screen and (max-width: 600px) {
+        .foto-profil {
+          width: 90px;
+          height: 110px;
+        }
+      }
+
+      body {
+        background-color: #eaf2f8;
+        font-family: Arial, sans-serif;
+        margin: 20px;
+        color: #333;
+        line-height: 1.6;
+      }
+
+      .cv {
+        width: 100%;
+        max-width: 750px;
+        margin: auto;
+        background-color: white;
+        border-collapse: collapse;
+        table-layout: fixed;
+      }
+
+      .cv td {
+        padding: 15px;
+        overflow-wrap: anywhere;
+      }
+
+      .header,
+      .footer {
+        background-color: #c2185b;
+        color: white;
+        text-align: center;
+      }
+
+      .header h1 {
+        margin: 0;
+        font-size: 28px;
+      }
+
+      .header p {
+        color: #fce4ec;
+        margin: 5px 0 0;
+      }
+
+      .profil {
+        width: 200px;
+        background-color: #fce4ec;
+        vertical-align: top;
+      }
+
+      .konten {
+        vertical-align: top;
+      }
+
+      h2,
+      h3 {
+        color: #c2185b;
+      }
+
+      h2 {
+        font-size: 21px;
+      }
+
+      h3 {
+        font-size: 18px;
+      }
+
+      hr {
+        border: 0;
+        border-top: 1px solid #f06292;
+        margin: 20px 0;
+      }
+
+      ul {
+        padding-left: 22px;
+      }
+
+      .tabel-pendidikan {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+      }
+
+      .tabel-pendidikan th,
+      .tabel-pendidikan td {
+        border: 1px solid #f8bbd0;
+        padding: 8px;
+        text-align: left;
+      }
+
+      .tabel-pendidikan th {
+        background-color: #fce4ec;
+      }
+
+      .footer {
+        padding: 15px;
+      }
+
+      /* Tampilan tablet dan HP */
+      @media screen and (max-width: 600px) {
+        body {
+          margin: 10px;
+        }
+
+        .cv {
+          width: 100%;
+          table-layout: auto;
+        }
+
+        .cv,
+        .cv tbody,
+        .cv tr,
+        .cv td {
+          display: block;
+          width: 100%;
+        }
+
+        .cv td {
+          padding: 15px;
+        }
+
+        .header,
+        .footer {
+          display: block;
+        }
+
+        .header h1 {
+          font-size: 23px;
+        }
+
+        .profil {
+          width: 100%;
+        }
+
+        h2 {
+          font-size: 19px;
+        }
+
+        h3 {
+          font-size: 17px;
+        }
+
+        .tabel-pendidikan {
+          font-size: 13px;
+        }
+
+        .tabel-pendidikan th,
+        .tabel-pendidikan td {
+          padding: 6px;
+          overflow-wrap: anywhere;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <table class="cv">
+      <tr>
+        <td class="header" colspan="2">
+          <h1>CURRICULUM VITAE</h1>
+          <p>Mahasiswa Teknik Informatika</p>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="profil" valign="top">
+          <img src="img.jpeg" alt="Foto Ela Santia" class="foto-profil" />
+
+          <h2>PROFIL</h2>
+
+          <p><b>Nama:</b><br />Ela Santia</p>
+          <p><b>Tanggal Lahir:</b><br />05 Oktober 2006</p>
+          <p><b>Jenis Kelamin:</b><br />Perempuan</p>
+          <p><b>Email:</b><br />santiaela9@gmail.com</p>
+          <p><b>No. Telepon:</b><br />08xxxxxxxxxx</p>
+          <p><b>Alamat:</b><br />Sungai Tabir</p>
+
+          <hr />
+
+          <h3>KEAHLIAN</h3>
+          <ul>
+            <li>HTML Dasar</li>
+            <li>Microsoft Word</li>
+            <li>Microsoft Excel</li>
+            <li>Komunikasi</li>
+            <li>Kerja Sama Tim</li>
+          </ul>
+
+          <hr />
+
+          <h3>HOBI</h3>
+          <ul>
+            <li>Membaca</li>
+            <li>Belajar Teknologi</li>
+            <li>Organisasi</li>
+            <li>Main voli</li>
+          </ul>
+        </td>
+
+        <td class="konten" valign="top">
+          <h2>TENTANG SAYA</h2>
+          <p>
+            Saya adalah mahasiswa Teknik Informatika yang memiliki semangat
+            belajar tinggi, disiplin, bertanggung jawab, dan tertarik pada
+            perkembangan teknologi informasi. Saya senang mempelajari hal baru
+            serta mampu bekerja secara individu maupun tim.
+          </p>
+
+          <h2>TUJUAN KARIER</h2>
+          <p>
+            Memiliki keinginan untuk mengembangkan kemampuan di bidang teknologi
+            informasi, menerapkan ilmu yang telah dipelajari, serta memperoleh
+            pengalaman yang dapat menunjang perkembangan karier dan
+            profesionalisme di masa depan.
+          </p>
+
+          <hr />
+
+          <h2>PENDIDIKAN</h2>
+          <table class="tabel-pendidikan">
+            <tr>
+              <th>Tahun</th>
+              <th>Institusi</th>
+            </tr>
+            <tr>
+              <td>2024–Sekarang</td>
+              <td>Universitas Nahdlatul Ulama Indonesia</td>
+            </tr>
+            <tr>
+              <td>2021–2024</td>
+              <td>MA Al Munawaroh Tabir Raya</td>
+            </tr>
+          </table>
+
+          <hr />
+
+          <h2>PENGALAMAN ORGANISASI</h2>
+          <p><b>MAKRAB Teknik UNUSIA</b></p>
+          <p><b>KOPRI Rayon Teknik UNUSIA</b></p>
+          <p>
+            Berpartisipasi dalam kegiatan organisasi, meningkatkan kemampuan
+            komunikasi, belajar bekerja sama, dan mengembangkan rasa tanggung
+            jawab.
+          </p>
+
+          <hr />
+
+          <h2>PENGALAMAN KERJA</h2>
+          <p>
+            Belum memiliki pengalaman kerja formal. Siap belajar dan
+            mengembangkan kemampuan.
+          </p>
+
+          <hr />
+
+          <h2>KARAKTER DIRI</h2>
+          <ul>
+            <li>Disiplin dan bertanggung jawab</li>
+            <li>Mudah beradaptasi</li>
+            <li>Memiliki semangat belajar</li>
+            <li>Mampu bekerja dalam tim</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td class="footer" colspan="2">
+          <b>Terima kasih telah membaca CV saya.</b>
+          <br />
+          Ela Santia | Teknik Informatika
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
